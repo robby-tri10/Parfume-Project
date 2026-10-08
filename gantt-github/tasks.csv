@@ -1,0 +1,55 @@
+id,tipe,fase,task,pic,minggu_mulai,minggu_selesai,progres,bobot
+1.1,task,Fase 1 - Definisi Proyek,Membentuk tim dan membagi peran,Project Manager,1,1,0,0
+1.2,task,Fase 1 - Definisi Proyek,Menetapkan Project Manager dan ketua peran,Project Manager,1,1,0,0
+1.3,task,Fase 1 - Definisi Proyek,Mencari calon klien dan memahami masalahnya,"Project Manager, System Analyst",1,2,0,0
+1.4,task,Fase 1 - Definisi Proyek,Mendiskusikan calon klien dan topik dengan dosen,Project Manager,1,1,0,0
+1.5,task,Fase 1 - Definisi Proyek,Mengunduh paket template dan membaca petunjuk pengisian,Semua anggota,1,1,0,0
+1.6,task,Fase 1 - Definisi Proyek,Menyusun profil klien (slide singkat),Technical Writer,1,1,0,0
+1.7,task,Fase 1 - Definisi Proyek,Membandingkan alternatif solusi (misal web vs desktop),System Analyst,2,2,0,0
+1.8,task,Fase 1 - Definisi Proyek,"Memilih metodologi (Waterfall, Agile, Scrum) dan mengenali risiko",Project Manager,2,2,0,0
+1.9,task,Fase 1 - Definisi Proyek,Menyusun Requirement Document (3 sampai 5 halaman),"System Analyst, Technical Writer",2,2,0,0
+1.10,task,Fase 1 - Definisi Proyek,Melampirkan lembar persetujuan klien bertanda tangan,Project Manager,2,2,0,0
+1.11,task,Fase 1 - Definisi Proyek,Menyiapkan presentasi 3 sampai 5 slide,Technical Writer,2,2,0,0
+1.12,task,Fase 1 - Definisi Proyek,Hasil: Requirement Document + persetujuan klien,Project Manager,2,2,0,10
+2.1,task,Fase 2 - Perencanaan Proyek,Menggambarkan proses bisnis dan gambaran sistem,System Analyst,3,3,0,0
+2.2,task,Fase 2 - Perencanaan Proyek,"Menilai kelayakan: teknis, ekonomi, operasional","System Analyst, Project Manager",3,4,0,0
+2.3,task,Fase 2 - Perencanaan Proyek,Memecah pekerjaan dengan WBS,Project Manager,4,4,0,0
+2.4,task,Fase 2 - Perencanaan Proyek,Menyusun jadwal dengan Gantt Chart,Project Manager,4,4,0,0
+2.5,task,Fase 2 - Perencanaan Proyek,Hasil: Dokumen 01 Bagian II + Gantt Chart (Excel),"Project Manager, Technical Writer",4,4,0,15
+3.1,task,Fase 3 - Analisis Kebutuhan,Wawancara dan observasi bersama klien,System Analyst,5,5,0,0
+3.2,task,Fase 3 - Analisis Kebutuhan,Menyusun kebutuhan fungsional dan non-fungsional,System Analyst,5,6,0,0
+3.3,task,Fase 3 - Analisis Kebutuhan,Membuat use case / user story,System Analyst,5,6,0,0
+3.4,task,Fase 3 - Analisis Kebutuhan,Menentukan prioritas kebutuhan (MoSCoW),"System Analyst, Project Manager",6,6,0,0
+3.5,task,Fase 3 - Analisis Kebutuhan,Hasil: Software Requirement Specification (SRS),"System Analyst, Technical Writer",6,6,0,15
+3.6,task,Fase 3 - Analisis Kebutuhan,Kuis 1: analisis kebutuhan (vclass),Semua anggota,6,6,0,5
+3.7,task,Fase 3 - Analisis Kebutuhan,Peer assessment ke-1 (vclass),Semua anggota,6,6,0,0
+4.1,task,Fase 4 - Desain Sistem,Merancang arsitektur sistem,System Designer,7,7,0,0
+4.2,task,Fase 4 - Desain Sistem,Merancang proses bisnis dan basis data (ERD),System Designer,7,8,0,0
+4.3,task,Fase 4 - Desain Sistem,Membuat wireframe / mockup antarmuka,System Designer,7,8,0,0
+4.4,task,Fase 4 - Desain Sistem,Mulai menyiapkan lingkungan pemrograman,Programmer,8,8,0,0
+4.5,task,Fase 4 - Desain Sistem,Hasil: Software Design Description (SDD),"System Designer, Technical Writer",8,8,0,15
+4.6,task,Fase 4 - Desain Sistem,Kuis 2: desain sistem (vclass),Semua anggota,8,8,0,5
+4.7,task,Fase 4 - Desain Sistem,Peer assessment ke-2 (vclass),Semua anggota,8,8,0,0
+5.1,task,Fase 5 - Pemrograman,Sprint 1: fitur dasar + demo progres di kelas,Programmer,9,9,0,0
+5.2,task,Fase 5 - Pemrograman,Sprint 2: fitur lanjutan + demo progres di kelas,Programmer,10,10,0,0
+5.3,task,Fase 5 - Pemrograman,Deploy awal ke server uji,Programmer,10,10,0,0
+5.4,task,Fase 5 - Pemrograman,Melanjutkan pemrograman saat pekan UTS,Programmer,11,11,0,0
+5.5,task,Fase 5 - Pemrograman,Sprint 3: semua fitur lengkap + demo progres di kelas,Programmer,12,12,0,0
+5.6,task,Fase 5 - Pemrograman,Memperbarui realisasi di Gantt Chart setiap sprint,Project Manager,9,12,0,0
+5.7,task,Fase 5 - Pemrograman,Hasil: Aplikasi + Dokumen Implementasi dan Kode Modul,"Programmer, Technical Writer",12,12,0,15
+6.1,task,Fase 6 - Pengujian Sistem,Menyusun skenario pengujian modul dan integrasi,Tester,13,13,0,0
+6.2,task,Fase 6 - Pengujian Sistem,Menyusun skenario UAT bersama klien,"Tester, Project Manager",13,13,0,0
+6.3,task,Fase 6 - Pengujian Sistem,Menjalankan pengujian dan mencatat bug,Tester,13,13,0,0
+6.4,task,Fase 6 - Pengujian Sistem,Memperbaiki bug lalu menguji ulang,"Programmer, Tester",13,13,0,0
+6.5,task,Fase 6 - Pengujian Sistem,Hasil: Skenario pengujian dan rencana UAT (Excel),Tester,13,13,0,5
+6.6,task,Fase 6 - Pengujian Sistem,Kuis 3: pengujian sistem (vclass),Semua anggota,13,13,0,5
+6.7,task,Fase 6 - Pengujian Sistem,Peer assessment ke-3 (vclass),Semua anggota,13,13,0,0
+7.1,task,Fase 7 - Penerapan dan Presentasi Akhir,Menjalankan UAT dan memperbaiki temuan,"Tester, Programmer",14,14,0,0
+7.2,task,Fase 7 - Penerapan dan Presentasi Akhir,Deploy final di lingkungan klien,Programmer,14,14,0,0
+7.3,task,Fase 7 - Penerapan dan Presentasi Akhir,Melatih pengguna dan membuat user manual,"Technical Writer, Project Manager",14,15,0,0
+7.4,task,Fase 7 - Penerapan dan Presentasi Akhir,Serah terima (BAST),Project Manager,15,15,0,0
+7.5,task,Fase 7 - Penerapan dan Presentasi Akhir,Hasil: Dokumen Penerapan + User Manual,Technical Writer,14,14,0,5
+7.6,task,Fase 7 - Penerapan dan Presentasi Akhir,Menyusun laporan akhir dan presentasi akhir,"Project Manager, Technical Writer",15,15,0,0
+7.7,task,Fase 7 - Penerapan dan Presentasi Akhir,Hasil: Laporan akhir dan presentasi,Semua anggota,15,15,0,5
+M1,milestone,Milestone Akademik,UTS (Ujian Tengah Semester),Semua anggota,11,11,0,0
+M2,milestone,Milestone Akademik,UAS (Ujian Akhir Semester),Semua anggota,16,16,0,0

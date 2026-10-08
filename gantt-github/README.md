@@ -105,3 +105,4 @@ GANTT_TODAY=2026-11-20 python scripts/sync_issues.py --dry-run   # simulasi tang
 ## Izin yang dibutuhkan
 
 Di Settings, Actions, General, Workflow permissions, pilih **Read and write permissions** agar workflow bisa commit dan mengelola issue.
+<!-- GANTT:START -->                         <!-- GANTT:END -->
